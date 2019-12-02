@@ -1,0 +1,75 @@
+  417  cd /test
+  418  cd /home/test
+  419  cd ~/test
+  420  touch file
+  421  ls -l
+  422  chmod go-rw
+  423  chmod go-rw file.txt
+  424  chmod go-rw file
+  425  echo "тест" >> /home/test/file
+  426  echo "тест" >> file
+  427  chmod ugo-rwx file
+  428  echo "тест" >> file
+  429  cat file
+  430  chmod 400 file
+  431  ll il
+  432  ll -l
+  433  chmod 200 file
+  434  ll -l
+  435  echo "тестtest" file
+  436  cat file
+  437  history
+  438  echo "test" >> file
+  439  cat file
+  440  chmod 240 file
+  441  ll -l
+  442  cat file
+  443  chmod 640 file
+  444  ls -l
+  445  cat file
+  446  mkdir dir
+  447  cd ~/dir
+  448  cd ~/home/salim/dir 
+  449  cd /home/salim/dir 
+  450  cd /dir
+  451  cd ~/dir
+  452  cd dir
+  453  touch new_file
+  454  echo "file2" >> new_file
+  455  cat new_file
+  456  ls -l
+  457  ls -sl
+  458  ls -al
+  459  ls -s
+  460  ls -a
+  461  chmod 000
+  462  man chmod
+  463  chmod --help
+  464  chmod 000 /dir
+  465  chmod 000 dir
+  466  chmod 000 ~/dir
+  467  chmod 000 new_file
+  468  ll -l
+  469  cat new_file
+  470  rm new_file
+  471  chmod ugo-x dir
+  472  cd ..
+  473  chmod ugo-x dir
+  474  cat dir/file
+  475  cat dir/new_file
+  476  rm dir/new_file
+  477  chown root file
+  478  chown root:root file
+  479  chgrp file
+  480  chgrp root file
+  481  umask 077
+  482  touch file.txt
+  483  rm file.txt
+  484  touch file1
+  485  ll file1
+  486  umask 000
+  487  touch file2
+  488  ll file2
+  489  cat file
+  490  ll
+  491  history > lab2_history.txt
